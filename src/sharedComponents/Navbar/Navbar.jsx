@@ -5,10 +5,46 @@ import logoImage from '../../assets/logo2.png'
 
 const Navbar = () => {
     const links = <>
-        <li><NavLink>Home</NavLink></li>
-        <li><NavLink>About</NavLink></li>
-        <li><NavLink>Apoinment</NavLink></li>
-        <li><NavLink>Login</NavLink></li>
+        <li><NavLink to='/' style={({isActive})=>{
+            return {
+                backgroundColor: isActive ? "transparent" : "white",
+                color: isActive ? "#023020" : "black",
+                padding: "3px",
+                textDecoration: isActive? "underline" : "none",
+                fontSize: isActive? "1rem" : "1rem",
+                fontWeight: isActive ? "bold" : "medium"
+            };
+        }} className="">Home</NavLink></li>
+        <li><NavLink to="/about" style={({isActive})=>{
+            return {
+                backgroundColor: isActive ? "transparent" : "white",
+                color: isActive ? "#023020" : "black",
+                padding: "3px",
+                textDecoration: isActive? "underline" : "none",
+                fontSize: isActive? "1rem" : "1rem",
+                fontWeight: isActive ? "bold" : "medium"
+            };
+        }} className=" ">About</NavLink></li>
+        <li><NavLink to="/appoinment" style={({isActive})=>{
+            return {
+                background: isActive ? "transparent" : "white",
+                color: isActive ? "#023020" : "black",
+                padding: "3px",
+                textDecoration: isActive? "underline" : "none",
+                fontSize: isActive? "1rem" : "1rem",
+                fontWeight: isActive ? "bold" : "medium"
+            };
+        }} className="">Appoinment</NavLink></li>
+        <li><NavLink to="/login" style={({isActive})=>{
+            return {
+                backgroundColor: isActive ? "transparent" : "white",
+                color: isActive ? "#023020" : "black",
+                padding: "3px",
+                textDecoration: isActive? "underline" : "none",
+                fontSize: isActive? "1rem" : "1rem",
+                fontWeight: isActive ? "bold" : "medium"
+            };
+        }} className="">Login</NavLink></li>
     </>
     return (
         <div className="navbar justify-between bg-base-100 text-white lg:px-28">
@@ -19,8 +55,8 @@ const Navbar = () => {
                 </div>
             </div>
             <div className="">
-                <div className='lg:flex md:hidden hidden'>
-                    <ul className="menu menu-horizontal px-1  text-white">
+                <div className='lg:flex md:hidden hidden '>
+                    <ul className="menu menu-horizontal px-1 gap-3 text-white">
                         {links}
                     </ul>
                 </div>

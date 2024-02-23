@@ -3,14 +3,18 @@ const Footer = () => {
     return (
         <div style={{ background: '#F3F3F3' }} className='mt-12'>
             <footer className="flex lg:flex-row md:flex-row flex-col p-10 text-base-content lg:justify-evenly md:justify-evenly justify-center gap-4">
-                <aside className='flex flex-col gap-3 lg:text-left text-center'>
-                    <div className='flex lg:justify-start justify-center gap-3'>
-                        <img src={logoImage} alt="" className='w-10 h-10' />
-                        <h2 className='text-3xl font-bold'><span className='text-[#F7A582]'>Doc</span> <span className='text-[#07332F]'>House</span></h2>
+                <div className='flex flex-col gap-3 lg:text-left text-center'>
+                    <div className='flex flex-col lg:justify-start md:justify-start justify-center lg:items-start md:items-center items-center gap-3'>
+                        <div className='flex gap-2'>
+                            <img src={logoImage} alt="" className='w-10 h-10' />
+                            <h2 className='text-3xl font-bold'><span className='text-[#F7A582]'>Doc</span> <span className='text-[#07332F]'>House</span></h2>
+                        </div>
+                        <div className='space-y-3'>
+                            <p className='max-w-[350px]'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis, aut obcaecati nam voluptatum nesciunt exercitationem.</p>
+                            <button className='btn btn-outline text-[#F7A582]'>Appoinment</button>
+                        </div>
                     </div>
-                    <p className='max-w-[350px]'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis, aut obcaecati nam voluptatum nesciunt exercitationem.</p>
-                    <button className='btn btn-outline text-[#F7A582]'>Appoinment</button>
-                </aside>
+                </div>
                 <nav className='flex flex-col lg:text-left text-center'>
                     <header className="text-xl font-bold text-black pb-3">Quick Links</header>
                     <a className="link link-hover">About Us</a>
