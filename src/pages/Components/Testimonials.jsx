@@ -53,7 +53,7 @@ const Testimonials = () => {
     ]
   };
     return (
-        <div className="lg:mx-[10vw] mx-[4vw] space-y-4 lg:mt-20 p-4">
+        <div className="lg:mx-[10vw] mx-[4vw] 2xl:mx-[20vw] space-y-4 lg:mt-20 p-4">
             <SectionTitle heading="What Our Patients Says" text="Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inve ntore veritatis et quasi architecto beatae vitae dicta sunt explicabo."></SectionTitle>
             <Slider {...settings} className="md:hidden lg:flex hidden">
                 {
