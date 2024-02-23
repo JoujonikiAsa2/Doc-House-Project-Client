@@ -9,7 +9,7 @@ const Services = () => {
             <div className="space-y-4 w-[90vw] md:w-[50vw] lg:w-[50vw] flex flex-col lg:justify-start lg:items-start justify-center items-center
             ">
                 <div className='space-y-4r'>
-                    <h2 className='text-xl lg:text-2xl font-bold text-black'>Your Best Medical Help Center</h2>
+                    <h2 className='text-xl lg:text-2xl font-bold text-black'>Our Services</h2>
                     <p className='text-black max-w-[515px]'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis, aut obcaecati nam voluptatum nesciunt exercitationem.</p>
                     <div role="tablist" className="tabs tabs-boxed">
                         <a role="tab" className="tab"><button className=' text-black'>Cavity Protection</button></a>

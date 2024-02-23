@@ -64,7 +64,7 @@ const Navbar = () => {
                     <label tabIndex={0} className="btn btn-ghost lg:hidden">
                         <IoMenu className='text-xl text-black'></IoMenu>
                     </label>
-                    <ul tabIndex={0} className="lg:hidden menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 right-20 text-black">
+                    <ul tabIndex={0} className="lg:hidden menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-36 right-10 text-black">
                         {links}
                     </ul>
                 </div>

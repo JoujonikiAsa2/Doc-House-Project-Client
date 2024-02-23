@@ -8,7 +8,7 @@ const Banner = () => {
                     <h2 className="">Your Best Medical</h2>
                     <h2 className="">Help Center </h2>
                 </div>
-                <p className="text-white text-sm w-[30vw]">Lorem Ipsum is simply dummy text they are printing typesetting has been the industry’s stardard.</p>
+                <p className="text-white text-sm lg:w-[30vw]">Lorem Ipsum is simply dummy text they are printing typesetting has been the industry’s stardard.</p>
                 <button className="btn btn-md lg:btn-md bg-[#F7A582] text-white border-none">All Service</button>
             </div>
             <div>
