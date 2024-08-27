@@ -13,7 +13,7 @@ const Services = () => {
                     <p className='text-black max-w-[515px]'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis, aut obcaecati nam voluptatum nesciunt exercitationem.</p>
                     <div role="tablist" className="tabs tabs-boxed">
                         <a role="tab" className="tab"><button className=' text-black'>Cavity Protection</button></a>
-                        <a role="tab" className="tab tab-active bg-[#F7A582]"><button className=' text-black'>Cosmetic Dentisty</button>
+                        <a role="tab" className="tab bg-[#F7A582]"><button className=' text-white font-bold'>Cosmetic Dentisty</button>
                         </a>
                         <a role="tab" className="tab"><button className='lg:flex hidden  text-black'>Oral Surgery</button></a>
                     </div>
